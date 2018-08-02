@@ -10,7 +10,7 @@ public class RecursionTests {
 
 	@Test
 	public void test() {
-		assertTrue(true);
+		assertTrue("Será?", true);
 	}
 
 }
