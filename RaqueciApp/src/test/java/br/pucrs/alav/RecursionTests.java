@@ -9,7 +9,7 @@ import org.junit.Test;
 public class RecursionTests {
 
 	@Test
-	public void test() {
+	public void test() { 
 		assertTrue("Será?", true);
 	}
 
