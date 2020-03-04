@@ -1,0 +1,23 @@
+package exercicio;
+
+class exercicio{
+
+    public static void main(String[] args){
+
+        //MULTIPLICAÇÃO DE DOIS NÚMEROS
+        System.out.println("Soma: " + multiple(3,4));
+    }
+
+
+    //MULTIPLICAÇÃO DE DOIS NÚMEROS
+    private static int multiple(int x, int y) {
+        if(y == 1){
+            return x;
+        }
+        return x + multiple(x, y-1);
+    }
+
+
+    //SOMA DE DOIS NÚMEROS NATURAIS, ATRAVES DE INCREMENTO SUCESSIVO
+
+}
